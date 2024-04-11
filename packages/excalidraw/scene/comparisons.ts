@@ -11,7 +11,6 @@ export const hasBackground = (type: ElementOrToolType) =>
   type === "embeddable" ||
   type === "ellipse" ||
   type === "diamond" ||
-  type === "line" ||
   type === "freedraw";
 
 export const hasStrokeColor = (type: ElementOrToolType) =>
